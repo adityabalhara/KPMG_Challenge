@@ -1,4 +1,4 @@
-I will be following below steps for settingup a 3 tier application:
+I will be following below approach for setting up a 3 tier application:
 
 Create architecture for an 3-tier application and implement same as below:
   - Use RDS with Multi-AZ for DB tier which is hosted Private subnet.
