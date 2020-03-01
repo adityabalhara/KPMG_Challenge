@@ -1,1 +1,7 @@
-Test
+With using Lodash library in JavaScript, we can achieve desired output as shown below:
+
+var object = { 'a': [{ 'b': { 'c': 3 } }] };
+_.get(object, 'a[0].b.c');
+
+
+// => 3
