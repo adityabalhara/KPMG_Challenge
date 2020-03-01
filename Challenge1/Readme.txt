@@ -1,3 +1,6 @@
+3 Yier application can be achieved using Cloud services as well as microservices, both approaches are shared below:
+
+First:
 I will be following below approach for setting up a 3 tier application on AWS Cloud Platform:
 
 Create architecture for an 3-tier application and implement same as below:
@@ -10,5 +13,10 @@ Create architecture for an 3-tier application and implement same as below:
 To secure the resources, i'll only allow traffic which is mandatory for application in Security Groups. Also attach WAF on External Load balancer which will help to protect web application against common web exploits.
 
 
----------------------------------------------------------
-A sample code for 3 tier application on Microservices architecture using Docker and K8s is placed in same directory.
+--------------
+Second:
+A sample code for 3 tier application on Microservices architecture using Docker and K8s is placed in same repository.
+
+
+Thanks,
+Aditya
