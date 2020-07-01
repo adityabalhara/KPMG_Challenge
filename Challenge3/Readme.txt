@@ -1,7 +1,11 @@
-With using Lodash library in JavaScript, we can achieve desired output as shown below:
+#Function for getting the Value
+def deep_get(d, keys):
+    if not keys or d is None:
+        return d
+    return deep_get(d.get(keys[0]), keys[1:])
 
-var object = { 'a': [{ 'b': { 'c': d } }] };
-_.get(object, 'a[0].b.c');
+#Example
+object = {'x':{'y':{'z':'a'}}}
 
-
-// => d
+#Execute for the output
+deep_get(object, ['x', 'y', 'z']) => 'a'
