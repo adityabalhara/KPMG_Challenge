@@ -1,6 +1,6 @@
 3 Yier application can be achieved using Cloud services as well as microservices, both approaches are shared below:
 
-First:
+First (Attaching High Level Design for reference):
 I will be following below approach for setting up a 3 tier application on AWS Cloud Platform:
 
 Create architecture for an 3-tier application and implement same as below:
@@ -10,7 +10,7 @@ Create architecture for an 3-tier application and implement same as below:
   - User AutoScaling Group for provision Web tier which is hosted Private subnet.
   - Use Load Balancer for all traffic coming to Web tier which is hosted in Public subnet.
 
-To secure the resources, i'll only allow traffic which is mandatory for application in Security Groups. Also attach WAF on External Load balancer which will help to protect web application against common web exploits.
+To secure the resources, i'll only allow traffic which is mandatory for application in Security Groups. Also attach WAF on External Load balancer which will help to protect web application against common web exploits. ElasticCache can also be used depending on the requirement of caching.
 
 
 --------------
